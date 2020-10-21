@@ -1,10 +1,18 @@
 # print("hello Elin!")
 
 import discord
+from konfig import Config
+
+cc = Config("./../../config.ini")
+token = cc.get_map("important_settings")['token']
+# token = cc.get_map("important_settings")
+
+# print(cc.as_args ())
+# print(token)
+# print(type(token))
 
 elin = discord.Client()
 
-token = "NzM1NzU1MjE1Nzg5MjI4MDQy.Xxk3cQ.UV0NHURt_lp0sLTcSzGzcp7Vse4"
 
 prefix = ";"
 
