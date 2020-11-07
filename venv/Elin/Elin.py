@@ -1,6 +1,7 @@
 # print("hello Elin!")
 
 import discord
+import os
 from konfig import Config
 
 cc = Config("./../../config.ini")
@@ -43,4 +44,5 @@ async def on_message(msg):
 
     pass
 
+token = os.environ["TOKEN"]
 elin.run(token)
