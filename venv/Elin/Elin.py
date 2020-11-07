@@ -2,10 +2,10 @@
 
 import discord
 import os
-from konfig import Config
-
-cc = Config("./../../config.ini")
-token = cc.get_map("important_settings")['token']
+# from konfig import Config
+#
+# cc = Config("./../../config.ini")
+# token = cc.get_map("important_settings")['token']
 # token = cc.get_map("important_settings")
 
 # print(cc.as_args ())
